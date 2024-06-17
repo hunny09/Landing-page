@@ -1,0 +1,76 @@
+
+.register{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-box{
+    background-image: url('../Assets/blues.webp');
+    width: 500px;
+    height: 500px;
+    margin-top: 5rem;
+    box-shadow: 10px 10px 10px rgb(99, 83, 83);
+   
+
+}
+
+.register-header{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    margin-top: 2rem;
+   
+}
+
+.input{
+    padding: 20px;
+   
+}
+
+.fname{
+    width: 50%;
+        height: 40px;
+        border-radius: 7px;
+        border-width: 3px;
+        margin-bottom: 15px;
+        margin-left: 8rem;
+}
+
+.mail{
+    width: 50%;
+        height: 40px;
+        border-radius: 7px;
+        border-width: 3px;
+        margin-bottom: 15px;
+        margin-left: 8rem;
+}
+
+.Password{
+    width: 50%;
+        height: 40px;
+        border-radius: 7px;
+        border-width: 3px;
+        margin-bottom: 15px;
+        margin-left: 8rem;
+}
+
+.submit{
+    width: 100px;
+        height: 40px;
+        background-color: white;
+        color: rgb(80, 80, 223);
+        border-radius: 1px solid white;
+       
+    }
+    
+    
+.submit:hover {
+        background-color: rgb(10, 10, 92);
+        color: white;
+        border: 3px solid white;
+        font-size: 1.5rem;
+    }
